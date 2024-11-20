@@ -37,7 +37,9 @@ fetch(queryURL)
     tRow.append(titleTd, yearTd, actorsTd);
     // Append the table row to the tablw body
     $("tbody").append(tRow); 
-})
+});
+
+// Repeat the same prosecces for second movie title and so on
 
 
 
